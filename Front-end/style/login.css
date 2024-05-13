@@ -1,0 +1,59 @@
+body{
+    background-image: url("/Front-end/img/FondoDePantalla.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Login_General{
+    background-color: rgba(251, 252, 255, 0.322) ;
+    padding: 10px;
+    width: 450px;
+    height: 500px;
+    border-radius: 28px;
+    margin: 100px 450px;
+
+}
+.Icono{
+    width: 130px;
+    height: 130px;
+    margin: 10px 165px;
+}
+
+.InputText{
+    background: rgba(255, 255, 255, 0.555);
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 40px 0px 0px 95px;
+    border: none;
+
+    
+}
+
+.Recordar{
+    background: none;
+    margin: 30px 8px 5px 95px;
+    width: auto;
+}
+
+.Boton{
+    background-color: rgba(240, 248, 255, 0.863);
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 25px 180px;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 40px;
+    margin:30px 40px;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.Regresar{
+    color:aqua;
+}

@@ -1,0 +1,16 @@
+body{background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.Button_Login{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0%;
+    width: 15vh;
+    height: 8vh;
+
+}
+
+.Nom_empresa{
+    color: red;
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
