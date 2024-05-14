@@ -1,5 +1,13 @@
-body{background-attachment: fixed;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
+body{
+    background-color: #F8F8F8;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+    overflow-x: auto;
+    
+}
+
+/*----------- Boton del aparatado header --------------*/
 
 .Button_Login{
     background-color: rgba(0, 0, 0, 0);
@@ -9,8 +17,346 @@ body{background-attachment: fixed;
 
 }
 
-.Nom_empresa{
-    color: red;
-    font-size: 2vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.Icono-CarritoDeCompra{
+
+    width: 15vh;
+    margin: 3vh 5vh 0vh 5vh ;
+    
 }
+
+/*     En el siguiente apartado se realizo los diseños de la imagen del NAV     */
+
+.Apartado_Header{
+
+    background-image: url(/Front-end/Img/Fondo_Nav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding:0%;
+    
+}
+
+/*------Cambia al deslizarse, fija el nav y el header--------------------*/
+/*
+.MyHeader_Deslizar .MyNav_Deslizar{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent; 
+    transition: background-color 0.3s;
+    z-index: 1000;
+
+}
+
+.MyHeader_Deslizar.scroll, .MyNav_Deslizar.scroll {
+    background-color: #3333334d;
+
+}
+*/
+
+/*    Nombre de empresa  */
+
+.Nom_empresa{
+    color: rgb(255, 255, 255);
+    font-size: 2.5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0vh 110vh 0vh 10vh ;
+
+}
+
+.Nav_Categorias{
+    background-color: none;
+    margin: 3vh 10vh 5vh 35vh ;
+    
+}
+
+/*      En este apartado se realizo los diseños del NAV       */
+
+.Nav_Link_Categorias{
+    display: inline-block;
+    margin-right: 40px;
+    color:black;
+    text-decoration: none;
+}
+
+/* ---------- COMIENZA EL APARTADO DEL ANCLA -------------------*/
+
+.Titulo_Ancla{
+
+    font-family:cursive;
+    width: 20vh;
+    font-size: 10vh;
+    margin:15vh 3vh 0vh 20vh ;
+}
+
+.Parrafo_Ancla {
+
+    margin: 7vh 3vh 0vh 25vh;
+}
+
+.Btn_Ancla{
+
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0%;
+    width: 15vh;
+    height: 8vh;
+    margin: 5vh 3vh 0vh 40vh;
+}
+
+.Img_Ancla{
+
+    margin: 1vh 0vh 0vh 18vh;
+    width: 75vh  ;
+    height: 75vh;
+}
+
+.Ancla_Izq{
+
+    margin: 0vh 0vh 0vh 12vh;
+}
+
+.Ancla{
+
+    display: flex;
+
+}
+
+/*--------------------------- COMIENZA EL MAIN ------------------------------*/
+
+/*---------------------------SECCION DE TIPOS DE PRODUCTOS ------------------------------*/
+
+
+.Imagen_TipoDeProductos{
+
+    margin: 10vh 0vh 2vh 25vh ;
+    width: 70vh;
+    height: 35vh;
+    border-radius: 3vh;
+}
+
+
+/*--------------------- Apatado de Preguntas frecuentes----------------------*/
+
+.Preguntas{
+
+    display: inline-block;
+    margin-right: 40px;
+    color:black;
+    text-decoration: none; 
+
+}
+
+.Mas_Vendido{
+
+    background-color: #c221a79a;
+    padding:7vh 5vh ;
+    font-size: 5vh;
+    border-radius: 3vh;
+    margin: 3vh 6vh 5vh 10vh;
+}
+
+.Nuevos_Productos{
+
+    background-color: #852bd475;
+    padding:7vh 5vh ;
+    font-size: 5vh;
+    border-radius: 3vh;
+    margin: 3vh 6vh 5vh 10vh;
+}
+
+.Categoria_Home{
+
+    background-color: #c221a79a;
+    padding:7vh 15svh ;
+    font-size: 5vh;
+    border-radius: 3vh;
+    margin: 3vh 0vh 5vh 10vh;
+}
+
+/*  ----------------RESUMEN DE NOSOTROS HOME-------------------------      */
+
+.ResumenDePagina{
+
+    display: flex;
+
+}
+
+.Imagen_NosotrosHome{
+
+    margin: 5vh 4vh 5vh 10vh;
+    border-radius: 4vh;
+}
+
+.Nosotros_Home{
+
+    margin: 15vh 4vh 5vh 5vh;
+    width: 100vh;
+}
+
+ /* -----------------Apartado 1 de metodo de envio -----------------------*/
+
+ .InfoDeEnvios{
+
+    
+    margin-right: 40px;
+    color:black;
+    display: flex;
+    margin: 0vh 0vh 0vh 100vh;
+    width: 10vh 60vh;
+    
+    
+    
+ }
+
+ .iconoDeEnvio{
+
+    margin: 0vh 0vh 3vh 0vh ;
+    width: 20vh;
+ }
+
+ .Parrafo_envio{
+
+    margin: 10vh 5vh 3vh 2vh;
+    width: 20vh;
+
+ }
+
+ .MetodoDeEnvio_Home{
+
+    
+    margin: 5vh 0vh 0vh 0vh;
+    display: inline-block;
+    margin-right: 0px;
+    color:black;
+    text-decoration: none;
+    width: 50vh; 
+ }
+
+ /*------------------------- AQUI COMIENZA EL AAPARTADO DE TODOS LOS PRODUCTOS----------------------*/
+
+ .TodoProductosFila_1{
+    margin: 20vh 0vh 50vh 20vh;
+ }
+
+
+ .TodosLosProductos{
+
+    display: flex;
+ }
+
+ /*-------------------ACA COMIENZA EL ´PIE D PAGINA -------------------- */
+
+ .PieDePagina{
+
+    background-color: black;
+    padding: 1vh 5vh;
+
+ }
+
+
+.Titulo_ApartadoFoorter{
+
+    display: flex;
+    margin: 10vh 70vh;
+}
+
+.Img_LogoFoorter{
+
+    width: 10vh;
+    height: 10vh;
+    border-radius: 30px;
+
+}
+
+.TituloFoorter{
+
+    color: #F8F8F8;
+    margin: 3vh 0vh 0vh 3vh;
+
+}
+
+ .A_linkFoorter{
+
+    color:#F8F8F8;
+    display: inline-block;
+    margin-right: 40px;
+    text-decoration: none;
+
+ }
+
+ .SubTituloFoorter{
+
+    color: #F8F8F8;
+ }
+
+ .Columna_1{
+    margin: 5vh 0vh 0vh 25vh;
+ }
+
+ .ColumnaFoorter{
+
+    display: flex;
+ }
+
+ .Sub2TituloDeFoorter {
+
+    color: #F8F8F8;
+    margin: 6vh 0vh 8vh 85vh;
+ }
+
+ .IconoFoorterWhatsapp{
+
+    width: 20vh;
+    margin: 0vh 0vh 0vh 40vh;
+ }
+
+ .IconoFoorterInstagram{
+
+    width: 12vh;
+    margin: 0vh 0vh 4vh 0vh;
+ }
+
+ .IconoFoorterTiktok{
+
+    width: 16vh;
+    margin: 0vh 0vh 3vh 0vh;
+ }
+
+ .IconoFoorterFacebook{
+
+    width: 14vh;
+    margin: 0vh 0vh 3vh 0vh;
+ }
+
+ .IconoFoorterGmail{
+
+    width: 16vh;
+    height: 20vh;
+    margin: 0vh 1vh -0.3vh 0vh;
+ }
+ 
+ .IconoFoorterpinterest{
+
+
+    width: 12vh;
+    margin: 0vh 7vh 4vh 0vh;
+ }
+
+ .IconoFoorterYouTube{
+
+    width: 10vh;
+    margin: 0vh 0vh 5vh 0vh;
+
+ }
+
+ .Iconos_Redes_Sociales{
+
+    padding: 5vh;
+    margin: 0vh 0vh,0vh 20vh;
+ }
