@@ -1,14 +1,534 @@
-body{
 
-}
+/*------------Aqui comienza el Nosotros con la imagen de nuestra empresa----------------*/
 
-.Encabezado_Servicios{
+.Encabezado_Nosotros{
 
     height: 50px;
     width: 70px;
 
 }
 
+.imagen_Nosotros{
+
+    width: 50vh;
+    border-radius: 4vh;
+    margin: 2vh 5vh 3vh 25vh;
+
+}
+
 .Encabezado_2{
 
+    background-color:#8CC0EB;
+    width: 220vh;
+    height: 70vh;
+    
+    
+}
+
+.Titulo_Nosotros {
+
+    font-size: 6vh;
+    margin:-5vh 0vh 5vh 20vh ;
+   
+}
+
+.Parrafo_Principal_Nosotros{
+
+    width: 2vh ;
+    margin: 5vh 50vh 5vh 50vh;
+
+}
+
+.Columna1_Nosotros{
+
+    display: flex;
+    
+}
+.Parafo_Principal {
+
+    width: 80vh ;
+    margin:0vh 0vh 3vh 20vh ;
+}
+
+/*--------------------------- AQUI COMIENZA EL */
+
+.Subtitulo_1_Nacio{
+
+    background-color: #E4E4E4 ;
+    width: 100vh;
+    text-align: center;
+    padding: 3vh;
+    margin:5vh 60vh ;
+    border-color:  black;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.Parrafo_1_Nacio{
+
+    margin: 5vh 40vh;
+    text-align: center;
+    width: 5vh 50vh;
+}
+
+.columna_MisionYVision{
+    display: flex;
+    
+}
+
+.MisionYVision{
+
+    display: flex;
+}
+
+
+
+.Parrafo_2MisionYVision{
+
+    width: 70vh;
+    margin: 4vh 20vh;
+    text-align: center;
+    background-color: #f8f8f863;
+    padding: 2vh;
+}
+
+.SubTituloVision{
+
+    margin: 2vh 48vh;
+   
+    border-color:  black;
+    border-bottom: 2px solid black;
+    
+}
+
+.MisionYVision{
+
+    background-color: #8CC0EB;
+    padding: 5vh 0vh;
+    
+}
+
+.Columna_EntregaProducto{
+
+    display: flex;
+}
+
+.SubTituloEntrega{
+
+    width: 70vh;
+    margin: 5vh 70vh;
+    border-color:  black;
+    border-bottom: 2px solid black;
+    
+}
+
+.Conjunto_Parrafo_Entrega{
+
+    width: 2vh 20vh;
+    margin: 2vh 30vh;
+}
+
+.Conjunto_De_Listas_1{
+
+    width: 2vh 50vh;
+    margin: 2vh 30vh;
+}
+
+.Imagen_EntregaProducto{
+
+    width: 50vh;
+    margin: 4vh 80vh;
+    border-radius: 6vh;
+}
+
+.Parrafo_Nosotros_Linea{
+
+    text-align: center;
+    margin: 5vh 40vh;
+
+}
+
+.Icon_Linea_WhatsApp{
+
+    width: 15vh;
+    margin: -3vh 0vh;
+}
+
+.Display_Linea{
+    
+    display: flex;
+    margin: 0vh  0vh 0vh 0vh;
+    margin-right: 0px;
+    color:black;
+    text-decoration: none;
+    width: 60vh; 
+    background-color: white;
+    padding: 2vh;
+    border-radius: 8vh;
+    border-color: black;
+    border-bottom: 2px solid black;
+    margin: 10vh 80vh;
+}
+
+.Parrafo_Linea{
+
+    margin: 5vh 0vh 3vh 2vh;
+}
+
+/*----------------NUESTROS VALORES-------------*/
+.Subtitulo2_Valores{
+
+    border-color:  black;
+    border-bottom: 2px solid black;
+    margin: 3vh 70vh;
+    width: 62vh;
+}
+
+.Parrafo_Valores{
+
+    margin: 10vh 30vh;
+}
+
+.Nuestros_Valores{
+
+    background-color: #b2b2b254;
+    padding: 5vh;
+}
+
+.Parrafo_Realizar_Pedidos{
+
+    display: flex;
+}
+
+.img_Pedidos{
+
+    margin: 2vh 10vh;
+    width: 60vh;
+    height: 60vh;
+}
+
+.SubTitulo3_Pedidos{
+    margin: 10vh 20vh;
+    border-color:  black;border-bottom: 2px solid black;
+    width: 60vh;
+}
+.Parrafo_Pedidos{
+
+    margin: 5vh 20vh;
+}
+
+/*-----------NUESTRAS REDES SOCILES(APARATDO DE NOSOTROS)---------------*/
+
+.Section_displayRedes{
+    display: flex;
+}
+
+.img_RedesSociales{
+
+    margin: 2vh 10vh;
+    width: 60vh;
+    height: 60vh;
+
+}
+
+.Parrafo_RedesSociales{
+    
+    margin: 5vh 20vh;
+}
+
+.Apartado_NuestrasRedes{
+
+    background-color: #8CC0EB;
+    padding: 5vh;
+}
+
+.SubTituloSociales{
+    border-color:  black;
+    border-bottom: 2px solid black;
+    width: 35vh;
+}
+
+
+
+
+/*----------------------------------------------------------NUESTROS  SERVISIO(ESTE LE CORRESPONDE A OTRO INSTANCIA DE HTML-----------------------------------------------)*/
+
+
+/*-----------ANCLA O FLECHA -------------*/
+
+.Encabezado_servicios{
+
+    height: 50px;
+    width: 70px;
+
+}
+
+
+.DisplayFlex{
+
+    display: flex;
+    margin: 0vh 0vh;
+}
+
+.Titulo_NuestrosServicios{
+
+    margin: 1vh 0vh 10vh 85vh;
+    background-color: #E4E4E4;
+    width: 40vh;
+    padding: 5vh;
+    border-radius: 8vh;
+    border-color:  black;
+    border-bottom: 2px solid black;
+
+}
+
+.DisplayFlexServicios{
+
+    display: flex ;
+}
+
+.Parrafo_1_Servicios{
+
+    margin: 5vh 20vh;
+    width:80vh;
+    background-color: #E4E4E4;
+    padding: 10vh 8vh;
+    border-radius: 4vh;
+}
+
+.Img_ServiciosArte{
+
+    width: 50vh;
+    margin: -5vh 0vh 10vh 20vh ;
+    border-radius: 25vh;
+
+}
+
+.Parrafo_2_Servicios{
+    
+    margin: 0vh 30vh;
+    width:80vh;
+    background-color:#8CC0EB;
+    padding: 10vh 8vh 5vh 20vh;
+    border-radius: 4vh;
+}
+
+.Img_ServiciosStyle{
+
+    width: 50vh;
+    margin: 5vh 0vh 10vh 20vh ;
+    border-radius: 25vh;
+
+}
+
+.Parrafo_3_Servicios{
+    
+    margin: 5vh 20vh;
+    width:80vh;
+    background-color: #E4E4E4;
+    padding: 10vh 8vh;
+    border-radius: 4vh;
+
+}
+
+.Img_ServiciosEnvio{
+    
+    width: 50vh;
+    margin: -5vh 0vh 10vh 20vh ;
+    border-radius: 25vh;
+
+}
+
+.Parrafo_4_WhatsApp{
+
+    margin: 0vh 10vh;
+    width:80vh;
+    background-color:#8CC0EB;
+    padding: 10vh 8vh 5vh 20vh;
+    border-radius: 4vh;
+
+}
+
+.Img_ServiciosWhatsApp{
+
+    width: 70vh;
+    margin: -5vh 0vh 10vh 20vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_4_RedSociales{
+
+    margin: 5vh 20vh;
+    width:80vh;
+    background-color: #E4E4E4;
+    padding: 10vh 8vh;
+    border-radius: 4vh;
+}
+
+.Img_ServiciosRedSociales{
+
+    width: 50vh;
+    margin: -5vh 0vh 10vh 20vh ;
+    border-radius: 25vh;
+
+
+}
+
+
+
+
+
+
+
+/*----------------------------------------------------------NUESTRAS REDES SOCIALES(ESTE LE CORRESPONDE A OTRO INSTANCIA DE HTML-----------------------------------------------)*/
+
+.Encabezado_Redes_Sociales{
+
+    height: 50px;
+    width: 70px;
+
+}
+
+.Titulo_RedesSociales{
+
+    margin: 1vh 0vh 10vh 80vh;
+    background-color: #E4E4E4;
+    width: 50vh;
+    padding: 5vh;
+    border-radius: 8vh;
+    border-color:  black;
+    border-bottom: 2px solid black;
+
+}
+
+.CentrarSubTitulo{
+
+    text-align: center;
+}
+
+.Parrafo_1_ApartadoRed_Sociales
+{
+
+    margin: 5vh 20vh;
+    width:80vh;
+    background-color: #E4E4E4;
+    padding: 10vh 8vh;
+    border-radius: 4vh;
+}
+
+.WhatsApp_Redes{
+
+    width: 60vh;
+    margin: -8vh 0vh 10vh 5vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_2_ApartadoRed_Sociales{
+    margin: 0vh 20vh;
+    width:80vh;
+    background-color:#8CC0EB;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
+}
+
+.Facebook_Redes{
+
+    width: 40vh;
+    margin: 1vh 0vh 10vh 10vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_3_ApartadoRed_Sociales{
+    margin: 0vh 20vh;
+    width:80vh;
+    background-color:#E4E4E4;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
+}
+
+.Instagram_Redes{
+
+    width: 38vh;
+    margin: 1vh 0vh 10vh 5vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_4_ApartadoRed_Sociales{
+    margin: 0vh 20vh;
+    width:80vh;
+    background-color:#8CC0EB;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
+}
+
+.Tiktok_Redes{
+
+    width: 40vh;
+    margin: 1vh 0vh 10vh 18vh ;
+    border-radius: 25vh;
+
+
+}
+
+
+.Pinterest_Redes{
+
+    width: 38vh;
+    margin: 1vh 0vh 10vh 5vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_5_ApartadoRed_Sociales{
+    margin: 0vh 20vh;
+    width:80vh;
+    background-color:#E4E4E4;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
+}
+
+.Parrafo_6_ApartadoRed_Sociales{
+    margin: 0vh 30vh;
+    width:80vh;
+    background-color:#8CC0EB;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
+}
+
+.YouTube_Redes{
+
+    width: 34vh;
+    margin: 1vh 0vh 10vh 18vh ;
+    border-radius: 25vh;
+
+
+}
+
+
+.Gmail_Redes{
+
+    width: 40vh;
+    height: 40vh;
+    margin: 1vh 0vh 10vh 5vh ;
+    border-radius: 25vh;
+
+
+}
+
+.Parrafo_7_ApartadoRed_Sociales{
+    margin: 0vh 20vh;
+    width:80vh;
+    background-color:#E4E4E4;
+    padding: 10vh 8vh 10vh 20vh;
+    border-radius: 4vh;
 }
