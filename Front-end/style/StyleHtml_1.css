@@ -1,0 +1,23 @@
+/*-------------------------METODOS DE EENVIO, ESTE APARTADO LE CORRESPONDE A UN HTML----------------------------------*/
+
+
+.Subtitulo_MetodosDeEnvio{
+    margin: 5vh 20vh;
+}
+
+.Parrafo_MetodosDeEnvio{
+
+    background-color: #E4E4E4;
+    padding: 8vh;
+    border-radius: 6vh;
+    width: 150vh;
+    margin: 0vh 20vh ;
+}
+
+.Imagen_MetodoDeEnvio{
+
+    width: 80vh ;
+    height: 38vh ;
+    border-radius: 4vh ;
+    margin: 5vh 60vh;
+}
